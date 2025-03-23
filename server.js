@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5001;
 
 // ✅ Enable CORS so frontend can connect
 app.use(cors({
-    origin: "*",
+    origin: "https://brilliant-toffee-2f8b07.netlify.app/",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true
